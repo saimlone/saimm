@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>Sign Up</title>
+</head>
+<body>
+   
+    <div class="container-lg mt-5">
+        <div class="text-center text-info">
+            <h2>Sign Up!</h2>
+            <p>Fill out the form below to sign up for free</p>
+        </div>
+
+        <div class="row justify-content-center text-primary">
+            <div class="col-lg-6">
+                <form>
+                    <label for="fName" class="form-label">First Name:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                          </span>
+                        <input type="text" class="form-control" id="name" name="fName" placeholder="eg. Saim">
+                    </div>
+                    <label for="lName" class="form-label">Last Name:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                          </span>
+                        <input type="text" class="form-control" id="name" name="lName" placeholder="eg. Bashir">
+                    </div>
+                    <label for="eAddress" class="form-label">Email Address:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-envelope-fill"></i>
+                          </span>
+                        <input type="email" class="form-control" name="eAddress" id="email" placeholder="eg. saim@gmail.com">
+                    </div>
+                    <label for="pWord" class="form-label">Password:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-lock-fill"></i>
+                          </span>
+                        <input type="password" class="form-control" name="pWord" id="password" placeholder="Password">
+                    </div>
+                    <label for="cPword" class="form-label">Confirm Password:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-lock-fill"></i>
+                          </span>
+                        <input type="password" class="form-control" name="cPword" id="password" placeholder="Confirm Password">
+                    </div>
+                    <div class="mb-3 text-end">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../bootstrap/js/jquery-3.6.3.js"></script>
+<script src="../bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
